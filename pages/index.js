@@ -3,16 +3,21 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+
     <div className={styles.container}>
       <Head>
         <title>Theocide Music</title>
         <link rel="icon" href="/bandLogo.png" />
+        <link rel="preconnect" href="https://fonts.gstatic.com"></link>;
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"></link>
       </Head>
 
       <main className={styles.main}>
-        <article>
-          <h1>Band Members</h1>
-          <p> Steven Ford - Rhythm Guitar
+        <article className={styles.mainArticle}>
+          <h1 className={styles.bandMembers}>Band Members</h1>
+
+          <p className={styles.bandNames}> 
+              Steven Ford - Rhythm Guitar
               Tim Janes - Lead Guitar
               Alex Angulo - Drums/ Vocals
               Mario Ramos - Bass Guitar
@@ -21,14 +26,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/bandLogo.png" alt="Vercel Logo" className={styles.logo} />
-        </a>
+        <img src="/bandLogo.png" alt="Theocide Logo" className={styles.logo} />
       </footer>
     </div>
   )

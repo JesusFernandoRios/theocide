@@ -23,6 +23,9 @@ export default function Home() {
               Mario Ramos - Bass Guitar
           </p>
         </article>
+        <figure>
+          <img className={styles.bandImage} src="/bandPicture.jpg" alt="Band Picture" />
+        </figure>
       </main>
 
       <footer className={styles.footer}>

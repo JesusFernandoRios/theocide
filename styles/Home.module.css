@@ -20,6 +20,15 @@
   align-items: center;
 }
 
+.mainArticle {
+  margin-top: 10%;
+}
+
+.bandImage {
+  width: 600px;
+  height: 50%;
+}
+
 .bandMembers {
   text-align: center;
   color: white;

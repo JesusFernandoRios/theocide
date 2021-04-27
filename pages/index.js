@@ -10,7 +10,14 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        
+        <article>
+          <h1>Band Members</h1>
+          <p> Steven Ford - Rhythm Guitar
+              Tim Janes - Lead Guitar
+              Alex Angulo - Drums/ Vocals
+              Mario Ramos - Bass Guitar
+          </p>
+        </article>
       </main>
 
       <footer className={styles.footer}>

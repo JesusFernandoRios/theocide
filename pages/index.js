@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Theocide Music</title>
-        <link rel="icon" href="/theocid5white.png" />
+        <link rel="icon" href="/bandLogo.png" />
       </Head>
 
       <main className={styles.main}>
@@ -27,7 +27,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          <img src="/bandLogo.png" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
     </div>

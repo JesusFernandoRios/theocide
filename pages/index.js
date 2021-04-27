@@ -18,12 +18,15 @@ export default function Home() {
 
           <p className={styles.bandNames}> 
               Steven Ford - Rhythm Guitar
+              <br/>
               Tim Janes - Lead Guitar
+              <br/>
               Alex Angulo - Drums/ Vocals
+              <br/>
               Mario Ramos - Bass Guitar
           </p>
         </article>
-        <figure>
+        <figure className={styles.mainFigure}>
           <img className={styles.bandImage} src="/bandPicture.jpg" alt="Band Picture" />
         </figure>
       </main>

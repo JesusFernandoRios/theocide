@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <article className={styles.mainArticle}>
-          {/* <h1 className={styles.bandMembers}>Band Members</h1> */}
+          <h1 className={styles.bandMembers}>Welcome To Theocide</h1>
 
           <p className={styles.bandNames}> 
               Steven Ford - Rhythm Guitar |

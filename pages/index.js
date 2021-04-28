@@ -14,15 +14,15 @@ export default function Home() {
 
       <main className={styles.main}>
         <article className={styles.mainArticle}>
-          <h1 className={styles.bandMembers}>Band Members</h1>
+          {/* <h1 className={styles.bandMembers}>Band Members</h1> */}
 
           <p className={styles.bandNames}> 
-              Steven Ford - Rhythm Guitar
-              <br/>
-              Tim Janes - Lead Guitar
-              <br/>
-              Alex Angulo - Drums/ Vocals
-              <br/>
+              Steven Ford - Rhythm Guitar |
+              
+              Tim Janes - Lead Guitar |
+              
+              Alex Angulo - Drums/ Vocals |
+              
               Mario Ramos - Bass Guitar
           </p>
         </article>

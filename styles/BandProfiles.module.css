@@ -9,8 +9,11 @@
 .container img {
     height: 100%;
     width: 60%;
+    border: 3px solid black;
+    box-shadow: 0 0 100px rgb(23, 0, 128);
 }
 
 .container h2 {
     color: white;
+    font-family: 'Raleway', sans-serif;
 }

@@ -1,5 +1,6 @@
 
 import styles from '../styles/BandProfiles.module.css'
+
 function BandProfile({image, name}) {
     return (
         <div className={styles.container}>

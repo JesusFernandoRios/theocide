@@ -6,8 +6,6 @@
   align-items: center;
   background: url('../public/theiocideeditposter.jpg');
   background-size: cover;
-  
-
 }
 
 .main {
@@ -17,9 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  
+  height: 100vh;
 }
 
 .mainArticle {

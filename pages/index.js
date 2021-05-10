@@ -39,7 +39,7 @@ export default function Home() {
         <article className={styles.mainArticle}>
           <h1 className={styles.bandMembers}>The•ism</h1>
 
-          <p className={styles.bandBio}> 
+          {/* <p className={styles.bandBio}> 
               Belief in the existence of a god or gods, especially belief in a personal God as creator and ruler of the world
               –cide ending originates from the Latin word caedere meaning to kill. 
               We want the world to know that we are comming for there gods and religion. We are comming for there ignorance they hold on so dearly to. It shall be eliminated. 
@@ -48,7 +48,7 @@ export default function Home() {
               
               <br/>
               Your Ignorance keeps you blind bring upon Theocide.
-            </p>
+          </p> */}
 
           {/* <p className={styles.bandNames}> 
               Steven Ford - Rhythm Guitar |

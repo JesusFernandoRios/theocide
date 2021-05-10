@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import BandProfile from '../components/BandProfile'
 import styles from '../styles/Home.module.css'
+import YouTubeIcon from '@material-ui/icons/YouTube';
 
 export default function Home() {
 
@@ -36,6 +37,8 @@ export default function Home() {
 
       <main className={styles.main}>
 
+        <nav> <YouTubeIcon/> </nav>
+
         <article className={styles.mainArticle}>
           <h1 className={styles.bandMembers}>The•ism</h1>
 
@@ -63,8 +66,8 @@ export default function Home() {
       </main>
 
       <section className={styles.profileSection}>
-        {bandMembers.map(members => (
-          <BandProfile image={members.image} name={members.name}/>
+        {bandMembers.map((members, index) => (
+          <BandProfile key={index} image={members.image} name={members.name}/>
         ))}
 
       </section>

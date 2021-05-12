@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import { red } from '@material-ui/core/colors';
 
 export default function Home() {
 
@@ -35,21 +36,26 @@ export default function Home() {
         <link rel="icon" href="/bandLogo.png" />
         <link rel="preconnect" href="https://fonts.gstatic.com"></link>;
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet"></link>
       </Head>
 
       <section className={styles.main}>
 
+        <h1 className={styles.bandMotto}>Your Ignorance keeps you blind bring upon Theocide.</h1>
+
         <div className={styles.socialMedia}> 
+
           <a href="https://www.youtube.com/channel/UC30HTr80fAs6Nl7elMu2Hnw/featured">
-            <YouTubeIcon  style={{fontSize:100}} className={styles.socialLinks}/>
+            <YouTubeIcon style={{ fontSize: 100, color:'FE0000'}} />
           </a>
 
           <a href="https://www.facebook.com/theocide">
-            <FacebookIcon style={{fontSize:100}} className={styles.socialLinks}/>
+            <FacebookIcon  style={{ fontSize: 100, color:'171A25'}} />
           </a>
             
           <a href="https://www.instagram.com/theocide/">
-            <InstagramIcon style={{fontSize:100}} className={styles.socialLinks}/>
+            <InstagramIcon style={{ fontSize: 100, color:'5F5860' }} />
           </a>
         </div>
         

@@ -9,8 +9,8 @@
 .container img {
     height: 100%;
     width: 60%;
-    border: 3px solid black;
-    box-shadow: 0 0 100px rgb(23, 0, 128);
+    border-radius: 10px;
+    box-shadow: 0 0 100px #1c2958;
 }
 
 .container h2 {

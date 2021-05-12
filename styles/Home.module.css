@@ -22,15 +22,21 @@
 .bandMotto {
   font-family: 'Metal Mania', cursive;
   font-size: 40px;
-  margin-top: 10%;
+  margin-top: 20%;
+}
+
+.lineBreak {
+  width: 50%;
+  border: 1px solid black;
 }
 
 .socialMedia {
   display: flex;
   flex-direction: row;
   padding: 20px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 50%;
+  
 }
 
 /* .mainArticle {
@@ -40,8 +46,8 @@
   align-items: center;
 } */
 
-.socialLinks {
- margin-left: rem;
+.downArrow {
+  
 }
 
 .bandImage {

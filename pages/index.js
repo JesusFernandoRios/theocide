@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import BandProfile from '../components/BandProfile'
 import styles from '../styles/Home.module.css'
+
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
-import { red } from '@material-ui/core/colors';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 export default function Home() {
 
@@ -42,21 +43,27 @@ export default function Home() {
 
       <section className={styles.main}>
 
-        <h1 className={styles.bandMotto}>Your Ignorance keeps you blind bring upon Theocide.</h1>
+        <h1 className={styles.bandMotto}>Explore Theocide</h1>
+
+        <hr className={styles.lineBreak}/>
 
         <div className={styles.socialMedia}> 
 
           <a href="https://www.youtube.com/channel/UC30HTr80fAs6Nl7elMu2Hnw/featured">
-            <YouTubeIcon style={{ fontSize: 100, color:'FE0000'}} />
+            <YouTubeIcon style={{ fontSize: 80, color:'FE0000'}} />
           </a>
 
           <a href="https://www.facebook.com/theocide">
-            <FacebookIcon  style={{ fontSize: 100, color:'171A25'}} />
+            <FacebookIcon  style={{ fontSize: 80, color:'171A25'}} />
           </a>
             
           <a href="https://www.instagram.com/theocide/">
-            <InstagramIcon style={{ fontSize: 100, color:'5F5860' }} />
+            <InstagramIcon style={{ fontSize: 80, color:'5F5860' }} />
           </a>
+        </div>
+        
+        <div className={styles.downArrow}>
+          <ExpandMoreIcon style={{fontSize:100, color:'white'}}/>
         </div>
         
       </section>

@@ -48,7 +48,7 @@ export default function Home() {
         <hr className={styles.lineBreak}/>
         
         <div className={styles.downArrow}>
-          <ExpandMoreIcon style={{fontSize:100, color:'white'}}/>
+          <ExpandMoreIcon style={{fontSize:100, color:'black'}}/>
         </div>
         
       </section>

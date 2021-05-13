@@ -46,26 +46,25 @@ export default function Home() {
         <h1 className={styles.bandMotto}>Explore Theocide</h1>
 
         <hr className={styles.lineBreak}/>
-
-        <div className={styles.socialMedia}> 
-
-          <a href="https://www.youtube.com/channel/UC30HTr80fAs6Nl7elMu2Hnw/featured">
-            <YouTubeIcon style={{ fontSize: 80, color:'FE0000'}} />
-          </a>
-
-          <a href="https://www.facebook.com/theocide">
-            <FacebookIcon  style={{ fontSize: 80, color:'171A25'}} />
-          </a>
-            
-          <a href="https://www.instagram.com/theocide/">
-            <InstagramIcon style={{ fontSize: 80, color:'5F5860' }} />
-          </a>
-        </div>
         
         <div className={styles.downArrow}>
           <ExpandMoreIcon style={{fontSize:100, color:'white'}}/>
         </div>
         
+      </section>
+
+      <section className={styles.socialMedia}>
+          <a href="https://www.youtube.com/channel/UC30HTr80fAs6Nl7elMu2Hnw/featured">
+            <YouTubeIcon style={{ fontSize: 60, color:'FE0000'}} />
+          </a>
+
+          <a href="https://www.facebook.com/theocide">
+            <FacebookIcon  style={{ fontSize: 60, color:'blue'}} />
+          </a>
+            
+          <a href="https://www.instagram.com/theocide/">
+            <InstagramIcon style={{ fontSize: 60, color:'white' }} />
+          </a>
       </section>
 
       <section className={styles.profileSection}>

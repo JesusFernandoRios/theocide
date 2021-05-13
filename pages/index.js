@@ -54,16 +54,17 @@ export default function Home() {
       </section>
 
       <section className={styles.socialMedia}>
+        
           <a href="https://www.youtube.com/channel/UC30HTr80fAs6Nl7elMu2Hnw/featured">
-            <YouTubeIcon style={{ fontSize: 60, color:'FE0000'}} />
+            <YouTubeIcon style={{ fontSize: 50, color:'FE0000'}} />
           </a>
 
           <a href="https://www.facebook.com/theocide">
-            <FacebookIcon  style={{ fontSize: 60, color:'blue'}} />
+            <FacebookIcon  style={{ fontSize: 50, color:'blue'}} />
           </a>
             
           <a href="https://www.instagram.com/theocide/">
-            <InstagramIcon style={{ fontSize: 60, color:'white' }} />
+            <InstagramIcon style={{ fontSize: 50, color:'white' }} />
           </a>
       </section>
 

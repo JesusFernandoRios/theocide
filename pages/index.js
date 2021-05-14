@@ -69,10 +69,11 @@ export default function Home() {
       
       <article className={styles.bandBio}>
 
-        <img  className={styles.groupPicture} src='/groupPicture1.jpg' alt='Group Picture' />
+        <h1>the•ism</h1>
         
         <div className={styles.theocideContent}>
-          <h2>the•ism</h2>
+
+          <img  className={styles.groupPicture} src='/groupPicture1.jpg' alt='Group Picture' />
 
           <p>
             Belief in the existence of a god or gods, especially belief in a personal God as creator and ruler of the world

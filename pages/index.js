@@ -13,20 +13,23 @@ export default function Home() {
 
   const bandMembers =[
     { image:'/theo1.jpg',
-      name: 'bandmemberone'
+      name: 'bandmemberone',
+      role: 'Guitar'
     },
     {
       image:'/theo2.jpg',
-      name: 'bandmemberone'
+      name: 'bandmemberone',
+      role: 'Guitar'
     },
     {
       image:'/theo3.jpg',
       name: 'Alex Angulo',
-      instrument:'Drums/ Vocals'
+      role:'Drums/ Vocals'
     },
     {
       image:'/theo4.jpg',
-      name: 'Mario Ramos'
+      name: 'Mario Ramos',
+      role: 'Bass Guitar'
     }
   ]  
 
@@ -42,16 +45,12 @@ export default function Home() {
 
       <Navbar/>
 
-      <section className={styles.main}>
+      <section id="Home" className={styles.main}>
 
         <h1 className={styles.bandMotto}>Upcoming Events</h1>
         <h3>Coming Soon...</h3>
 
         <hr className={styles.lineBreak}/>
-        
-        <div className={styles.downArrow}>
-          <ExpandMoreIcon style={{fontSize:100, color:'black'}}/>
-        </div>
         
       </section>
 
@@ -70,7 +69,7 @@ export default function Home() {
           </a>
       </section>
       
-      <article className={styles.bandBio}>
+      <article id="Bio" className={styles.bandBio}>
 
         <h1>the•ism</h1>
         
@@ -94,9 +93,9 @@ export default function Home() {
         
       </article>
 
-      <section className={styles.profileSection}>
+      <section id="Members" className={styles.profileSection}>
         {bandMembers.map((members, index) => (
-          <BandProfile key={index} image={members.image} name={members.name}/>
+          <BandProfile key={index} image={members.image} name={members.name} role={members.role}/>
         ))}
 
       </section>

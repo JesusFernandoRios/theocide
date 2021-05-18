@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import BandProfile from '../components/BandProfile'
+import Navbar from '../components/NavBar'
 import styles from '../styles/Home.module.css'
 
 import YouTubeIcon from '@material-ui/icons/YouTube';
@@ -38,6 +39,8 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com"></link>;
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"></link>
       </Head>
+
+      <Navbar/>
 
       <section className={styles.main}>
 

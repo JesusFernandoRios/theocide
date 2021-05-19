@@ -5,6 +5,7 @@
     color: white;
     position: fixed;
     top: 0;
+    border-bottom: 1px solid red;
 }
 
 .navLinks {
@@ -18,3 +19,4 @@
     margin: 0 3% 0 3%;
     font-family: 'Raleway', sans-serif;
 }
+

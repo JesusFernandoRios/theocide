@@ -7,7 +7,7 @@ function NavBar() {
                 <li><a href="#Home"> Events</a></li>
                 <li><a href="#Bio"> Bio</a></li>
                 <li><a href="#Members"> Band Members </a></li>
-                <li><a>Store</a></li>
+                <li><a>Stores</a></li>
             </ul>
         </nav>
     )

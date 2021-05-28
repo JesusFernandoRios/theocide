@@ -4,10 +4,10 @@ function NavBar() {
     return (
         <nav className={styles.container}>
             <ul className={styles.navLinks}> 
-                <li><a href="#Home"> Events</a></li>
-                <li><a href="#Bio"> Bio</a></li>
-                <li><a href="#Members"> Band Members </a></li>
-                <li><a>Stores</a></li>
+                <li>Events</li>
+                <li>Bio</li>
+                <li>Band Members</li>
+                <li>Stores</li>
             </ul>
         </nav>
     )

@@ -1,8 +1,16 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background-color: black;
+  height: 100vh;
 }
 
+.bandLogo {
+  width: 50%;
+  height: 50%;
+}
+
+.homeHeader {
+  font-family: 'Rock Salt', cursive;
+  color: white;
+}

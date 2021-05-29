@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Navbar from '../components/NavBar'
+import SocialLinks from '../components/SocialLinks'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -18,8 +19,15 @@ export default function Home() {
 
       <Navbar/>
 
-      <img className={styles.bandLogo} src="/theocid5white.png" alt="Band Logo"/>
+      {/* <img className={styles.bandLogo} src="/theocid5white.png" alt="Band Logo"/> */}
       <p className={styles.homeHeader}>Your Ignorance keeps you Blind upon Theocide</p>
+
+      <SocialLinks/>
+
+      <div className={styles.homeEvents}>
+        <h2>Upcoming Events</h2>
+        <p>Coming Soon...</p>
+      </div>
 
     </main>
   )

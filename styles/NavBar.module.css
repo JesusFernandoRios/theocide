@@ -1,9 +1,8 @@
 .container {
-    background-color: black;
     margin-top: 1%;
     width: 100%;
     height: 5%;
-    color: white;
+    color: rgb(160, 140, 140);
 }
 
 .navLinks {

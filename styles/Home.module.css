@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
 }
 
 .bandLogo {
@@ -13,4 +12,12 @@
 .homeHeader {
   font-family: 'Rock Salt', cursive;
   color: white;
+}
+
+.homeEvents {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

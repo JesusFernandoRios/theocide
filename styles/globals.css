@@ -5,7 +5,10 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   scroll-behavior: smooth;
-  background-color: black;
+  background-image: url("/theiocideeditposter.jpg");
+  background-size: cover;
+  /* background-color: black; */
+  
 }
 
 a {

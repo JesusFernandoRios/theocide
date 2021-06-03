@@ -1,5 +1,7 @@
 
+import NavBar from '../components/NavBar'
 import BandProfile from "../components/BandProfile"
+import styles from '../styles/BandProfiles.module.css'
 
 const bandMembers =[
     { image:'/theo1.jpg',
@@ -25,10 +27,15 @@ const bandMembers =[
 
 function Band() {
     return (
-        <section id="Members">
-        {bandMembers.map((members, index) => (
-          <BandProfile key={index} image={members.image} name={members.name} role={members.role}/>
-        ))}
+        <section id="Members" className={styles.mainContainer}>
+          <NavBar/>
+
+          <div className={styles.imageContainer}>
+            {bandMembers.map((members, index) => (
+              <BandProfile key={index} image={members.image} name={members.name} role={members.role}/>
+            ))}
+          </div>
+        
       </section>
     )
 }

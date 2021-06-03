@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  text-decoration: underline;
+}
+
 * {
   box-sizing: border-box;
 }

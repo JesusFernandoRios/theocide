@@ -1,4 +1,3 @@
-
 import styles from '../styles/BandProfiles.module.css'
 
 function BandProfile({image, name, role}) {

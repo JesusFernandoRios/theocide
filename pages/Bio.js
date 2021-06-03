@@ -1,8 +1,11 @@
-
+import styles from '../styles/BioPage.module.css'
 
 function Bio() {
     return (
-        <section>
+        <section className={styles.container}>
+
+            <h1>The•ism</h1>
+
             <p>
             Belief in the existence of a god or gods, especially belief in a personal God as creator and ruler of the world
             –cide ending originates from the Latin word caedere meaning to kill. 

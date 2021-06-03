@@ -26,9 +26,12 @@
 }
 
 .homeEvents {
-  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.homeEvents p {
+  color: white;
 }

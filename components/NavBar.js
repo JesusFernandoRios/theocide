@@ -6,7 +6,7 @@ function NavBar() {
         <nav className={styles.container}>
             <ul className={styles.navLinks}> 
                 <li>
-                    <Link href="/index"><a>Home</a></Link>
+                    <Link href="/"><a>Home</a></Link>
                 </li>
                 <li>
                     <Link href="/Events"><a>Events</a></Link>

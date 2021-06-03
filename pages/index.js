@@ -17,17 +17,21 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet"></link>
       </Head>
 
-      <Navbar/>
+      <section className={styles.homeContent}>
 
-      {/* <img className={styles.bandLogo} src="/theocid5white.png" alt="Band Logo"/> */}
-      <p className={styles.homeHeader}>Your Ignorance keeps you Blind upon Theocide</p>
+        <p className={styles.homeHeader}>Your Ignorance keeps you Blind upon Theocide</p>
+
+        <Navbar/>
+      </section>
 
       <SocialLinks/>
-
+      
       <div className={styles.homeEvents}>
-        <h2>Upcoming Events</h2>
-        <p>Coming Soon...</p>
+          <h2>Upcoming Events</h2>
+          <p>Coming Soon...</p>
       </div>
+
+      
 
     </main>
   )

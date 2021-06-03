@@ -1,4 +1,5 @@
 
+import BandProfile from "../components/BandProfile"
 
 const bandMembers =[
     { image:'/theo1.jpg',
@@ -24,7 +25,7 @@ const bandMembers =[
 
 function Band() {
     return (
-        <section id="Members" className={styles.profileSection}>
+        <section id="Members">
         {bandMembers.map((members, index) => (
           <BandProfile key={index} image={members.image} name={members.name} role={members.role}/>
         ))}

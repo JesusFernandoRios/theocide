@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import Navbar from '../components/NavBar'
 import SocialLinks from '../components/SocialLinks'
+import Footer from '../components/Footer'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
 
   return (
-
+    <>
     <main className={styles.container}>
       <Head>
         <title>Theocide Music</title>
@@ -20,10 +21,6 @@ export default function Home() {
       <section className={styles.homeContent}>
 
         <Navbar/>
-
-        <SocialLinks/>
-
-
         <div className={styles.homeEvents}>
           <h2>Upcoming Events</h2>
           <p>Coming Soon...</p>
@@ -32,5 +29,7 @@ export default function Home() {
       </section>
 
     </main>
+    <Footer/>
+    </>
   )
 }

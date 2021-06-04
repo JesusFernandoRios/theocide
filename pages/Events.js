@@ -1,9 +1,17 @@
-import React from 'react'
+import NavBar from '../components/NavBar'
+import styles from '../styles/EventsPage.module.css'
 
 function Events() {
     return (
-        <div>
-            <h1>Events</h1>
+        <div className={styles.container}>
+
+            <NavBar/>
+
+            <h1>Upcoming Events</h1>
+
+            <div>
+                <p>Coming Soon...</p>
+            </div>
         </div>
     )
 }

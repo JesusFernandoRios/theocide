@@ -3,14 +3,16 @@
     flex-direction:row-reverse;
     margin: 2%;
     justify-content: center;
-    background-color: black;
     padding: 5px;
-    border-radius: 20px;
+    background-color: black;
+    width: 100%;
+    
 }
 
 .socialLinks a {
     display:flex;
     justify-content: center;
+    
 }
 
 .socialIcons {

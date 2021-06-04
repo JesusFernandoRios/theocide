@@ -1,9 +1,7 @@
 .container {
     margin-top: 1%;
     width: 100%;
-    height: 5%;
     color: white;
-    width: 100%;
 }
 
 .navLinks {
@@ -11,12 +9,21 @@
     flex-direction: row;
     justify-content: center;
     list-style: none;
-    width: 100%;
 }
 
 .navLinks li {
+    font-weight: bold;
     margin: 0 2% 0 2%;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Raleway', sans-serif;
     font-size: x-large;
 }
 
+.navLinks a {
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.navLinks li :hover {
+    color: black;
+}

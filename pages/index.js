@@ -19,19 +19,17 @@ export default function Home() {
 
       <section className={styles.homeContent}>
 
-        <p className={styles.homeHeader}>Your Ignorance keeps you Blind upon Theocide</p>
-
         <Navbar/>
-      </section>
 
-      <SocialLinks/>
-      
-      <div className={styles.homeEvents}>
+        <SocialLinks/>
+
+
+        <div className={styles.homeEvents}>
           <h2>Upcoming Events</h2>
           <p>Coming Soon...</p>
-      </div>
+        </div>
 
-      
+      </section>
 
     </main>
   )

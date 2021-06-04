@@ -25,5 +25,6 @@
 }
 
 .navLinks li :hover {
-    color: black;
+    color: red;
+    background-color: black;
 }

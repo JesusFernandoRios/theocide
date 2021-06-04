@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 20px;
+    height: 100vh;
 }
 
 .container {
@@ -13,7 +14,7 @@
 }
 
 .imageContainer {
-    margin-top: 10%;
+    margin-top: 8%;
     display: flex;
 }
 

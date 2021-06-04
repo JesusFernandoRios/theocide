@@ -6,24 +6,20 @@
 .navLinks {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     list-style: none;
 }
 
 .navLinks li {
     font-weight: bold;
-    margin: 0 2% 0 2%;
     font-family: 'Raleway', sans-serif;
     font-size: x-large;
-}
-
-.navLinks a {
-    align-items: center;
-    padding: 20px;
-    border-radius: 20px;
 }
 
 .navLinks li :hover {
     color: red;
     background-color: black;
+}
+
+.navLinks img {
+    width: 10%;
 }

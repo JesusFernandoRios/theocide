@@ -1,8 +1,8 @@
+import Link from 'next/link'
 import Head from 'next/head'
-import Navbar from '../components/NavBar'
-import SocialLinks from '../components/SocialLinks'
 import Footer from '../components/Footer'
 import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
 
@@ -20,7 +20,15 @@ export default function Home() {
 
       <section className={styles.homeContent}>
 
-        <Navbar/>
+        <nav className={styles.homeNavbar}>
+          {/* <ul className={styles.navRoutes}>
+            <li>Events</li>
+            <li>Band</li>
+            <li>Bio</li>
+            <li>Store</li>
+          </ul> */}
+        </nav>
+        
         <div className={styles.homeEvents}>
           <h2>Upcoming Events</h2>
           <p>Coming Soon...</p>

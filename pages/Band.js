@@ -38,7 +38,6 @@ function Band() {
         </div>
 
 
-        <PageFooter/>
       </section>
       
     )

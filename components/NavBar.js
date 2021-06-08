@@ -6,19 +6,19 @@ function NavBar() {
         <nav className={styles.container}>
             <ul className={styles.navLinks}> 
                 <li>
-                    <Link href="/Store"><a>Store</a></Link>
+                    <Link href="/Store"><a>lStore</a></Link>
                 </li>
                 <li>
-                    <Link href="/Events"><a>Events</a></Link>
+                    <Link href="/Events"><a>lEvents</a></Link>
                 </li>
                 <li>
                     <Link href="/"><img src="/bandLogo.png" alt="band logo"/></Link>
                 </li>
                 <li>
-                    <Link href="/Band"><a>Band</a></Link>
+                    <Link href="/Band"><a>lBand</a></Link>
                 </li>
                 <li>
-                    <Link href="/Bio"><a>Bio</a></Link>
+                    <Link href="/Bio"><a>lBio  </a></Link>
                 </li>
             </ul>
         </nav>

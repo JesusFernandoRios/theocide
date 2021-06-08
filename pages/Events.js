@@ -12,8 +12,6 @@ function Events() {
                 <h1>Upcoming Events</h1>
                 <p>Coming Soon...</p>
             </div>
-
-            <PageFooter/>
         </div>
     )
 }

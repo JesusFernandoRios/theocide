@@ -13,8 +13,6 @@ function Store() {
                 <p>Coming Soon...</p> 
             </div>
             
-
-            <PageFooter/>
         </div>
     )
 }

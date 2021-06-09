@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import Head from 'next/head'
+import HomeBar from '../components/HomeBar'
 import Footer from '../components/Footer'
 import styles from '../styles/Home.module.css'
 
@@ -20,14 +20,7 @@ export default function Home() {
 
       <section className={styles.homeContent}>
 
-        <nav className={styles.homeNavbar}>
-          {/* <ul className={styles.navRoutes}>
-            <li>Events</li>
-            <li>Band</li>
-            <li>Bio</li>
-            <li>Store</li>
-          </ul> */}
-        </nav>
+        <HomeBar/>
         
         <div className={styles.homeEvents}>
           <h2>Upcoming Events</h2>

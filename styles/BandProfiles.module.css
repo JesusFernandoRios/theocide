@@ -36,7 +36,13 @@
 }
 
 @media (max-width: 768px) {
+
+    .mainContainer {
+        width: 812px;
+        justify-content: end;
+    }
+
     .imageContainer {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 }

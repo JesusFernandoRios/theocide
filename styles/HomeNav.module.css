@@ -18,3 +18,14 @@
     margin-left: 10%;
     margin-right: 10%;
 }
+
+@media (max-width: 768px) {
+    .navRoutes {
+        flex-direction: column;
+    }
+    
+    .navRoutes li {
+        margin-top: 50%;
+    }
+    
+}

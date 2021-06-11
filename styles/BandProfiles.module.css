@@ -34,3 +34,9 @@
     color: white;
     font-family: 'Raleway', sans-serif;
 }
+
+@media (max-width: 768px) {
+    .imageContainer {
+        flex-direction: column-reverse;
+    }
+}

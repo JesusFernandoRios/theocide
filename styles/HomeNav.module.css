@@ -1,6 +1,3 @@
-.container {
-    color: white;
-}
 
 .navRoutes {
     display: flex;
@@ -12,12 +9,22 @@
 }
   
 .navRoutes li {
-    font-weight: bold;
+    color:white;
+    padding: 5% 10% 5% 10%; 
     font-family: 'Raleway', sans-serif;
-    font-size: x-large;
+    font-size: 50px;
+    font-weight: 900;
     margin-left: 10%;
     margin-right: 10%;
 }
+
+.navRoutes li:hover {
+    color: red;
+    background-color: black;
+    cursor: pointer;
+}
+
+
 
 @media (max-width: 768px) {
     .navRoutes {

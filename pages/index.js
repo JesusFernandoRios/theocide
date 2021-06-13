@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <>
-      
+
     <HomeBar/>
 
     <main className={styles.container}>
@@ -29,7 +29,7 @@ export default function Home() {
         </div>
 
       </section>
-
+      
     </main>
     <Footer/>
     </>

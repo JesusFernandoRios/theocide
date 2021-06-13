@@ -8,6 +8,9 @@ export default function Home() {
 
   return (
     <>
+      
+    <HomeBar/>
+
     <main className={styles.container}>
       <Head>
         <title>Theocide Music</title>
@@ -20,8 +23,6 @@ export default function Home() {
 
       <section className={styles.homeContent}>
 
-        <HomeBar/>
-        
         <div className={styles.homeEvents}>
           <h2>Upcoming Events</h2>
           <p>Coming Soon...</p>

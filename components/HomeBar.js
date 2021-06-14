@@ -18,7 +18,7 @@ function HomeBar() {
                 <div className={styles.line}></div>
                 <div className={styles.line}></div>
             </div>
-            <ul className={isActive ? styles.navRoutes : styles.open}>
+            <ul className={isActive ? styles.open : styles.navRoutes}>
                 <li><Link href="/Events">Events</Link></li>
                 <li><Link href="/Band">Band</Link></li>
                 <li><Link href="/Bio">Bio</Link></li>

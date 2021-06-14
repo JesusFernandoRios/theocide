@@ -1,15 +1,24 @@
+import { useState } from 'react'
+
 import Link from 'next/link'
 import styles from '../styles/HomeNav.module.css'
 
 function HomeBar() {
+
+    const [isActive, setActive] = useState(false);
+
+    const toggleClass = () => {
+    setActive(!isActive);
+    };
+
     return (
         <nav className={styles.container}>
-            <div className={styles.hamburger}>
+            <div className={styles.hamburger} onClick={toggleClass}>
                 <div className={styles.line}></div>
                 <div className={styles.line}></div>
                 <div className={styles.line}></div>
             </div>
-            <ul className={styles.navRoutes}>
+            <ul className={isActive ? styles.navRoutes : styles.open}>
                 <li><Link href="/Events">Events</Link></li>
                 <li><Link href="/Band">Band</Link></li>
                 <li><Link href="/Bio">Bio</Link></li>

@@ -20,6 +20,22 @@
     font-weight: 500;
 }
 
+.open {
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.open li {
+  color:white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 @media (max-width: 768px) {
 
   .line {
@@ -36,25 +52,44 @@
 
   .hamburger {
     position: absolute;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
     cursor: pointer;
     right: 5%;
     top: 20%;
     transform: translate(5%, 20%);
+    z-index: 2;
   }
 
   .navRoutes {
     position: fixed;
     height: 100vh;
     width: 100%;
-    background: black;
+    background: darkred;
     flex-direction: column;
-    clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path: circle(100px at 90% -10%);
+    clip-path: circle(50px at 90% -10%);
+    -webkit-clip-path: circle(50px at 90% -10%);
     transition: all 1s ease-out;
+  }
+
+  .open {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background: darkred;
+    flex-direction: column;
+    transition: all 1s ease-out;
+    clip-path: circle(1000px at 90% -10%);
+    -webkit-clip-path: circle(1000px at 90% -10%);
+  }
+
+  .open li {
+    margin-top: -10%;
   }
     
   .navRoutes li {
-    margin-top: 50%;
+    margin-top: -10%;
   }
     
 }

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import HomeBar from '../components/HomeBar'
 import Footer from '../components/Footer'
+import EventsInfo from '../components/EventsInfo'
 import styles from '../styles/Home.module.css'
 
 
@@ -25,7 +26,7 @@ export default function Home() {
 
         <div className={styles.homeEvents}>
           <h2>Upcoming Events</h2>
-          <p>Coming Soon...</p>
+          <EventsInfo/>
         </div>
 
       </section>

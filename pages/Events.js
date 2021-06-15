@@ -1,4 +1,4 @@
-import NavBar from '../components/NavBar'
+import NavBar from '../components/HomeBar'
 import styles from '../styles/EventsPage.module.css'
 import EventsInfo from '../components/EventsInfo'
 
@@ -23,10 +23,14 @@ function Events() {
         <div className={styles.container}>
 
             <NavBar/>
+            <div className={styles.logoContainer}>
+                <img className={styles.colorLogo} src='/colorLogo/green.png' alt='Logo'/>
+            </div>
 
             <h1>Upcoming Events</h1>
-            
+
             <div className={styles.content}>
+                
                 {eventInformation.map(( events, index) => (
                     <EventsInfo key={index} image={events.image} date={events.date} eventName={events.eventName} tickets={events.tickets}/>
                 ))}

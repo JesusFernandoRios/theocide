@@ -1,7 +1,6 @@
 
 import NavBar from '../components/NavBar'
 import BandProfile from "../components/BandProfile"
-import PageFooter from '../components/PageFooter'
 import styles from '../styles/BandProfiles.module.css'
 
 const bandMembers =[

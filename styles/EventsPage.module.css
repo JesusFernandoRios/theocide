@@ -4,18 +4,27 @@
     text-align: center;
     color: white;
     height: 100vh;
+    
 }
 
 .content {
-    display: inline-flex;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    
+    margin-top: 20%;
 }
 
-.events {
-    display: flex;
-    flex-direction: column;
+.logoContainer {
+    position: absolute;
+    margin-top: 2%;
 }
 
-.events img {
-    width: 30%;
+.colorLogo {
+    width: 50%;
+    
+}
+
+.eventImage {
     border-radius: 10px;
 }

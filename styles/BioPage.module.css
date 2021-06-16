@@ -2,9 +2,6 @@
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
     text-align: center;
 }
 
@@ -12,6 +9,11 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    z-index: 1;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
 }
 
 .content img {
@@ -29,4 +31,26 @@
     font-family: 'Raleway', sans-serif;
     font-style: italic;
     font-size: 20px;
+}
+
+
+.logoContainer {
+    margin-top: 2%;
+    position: absolute;
+}
+
+.colorLogo {
+    width: 50%;   
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        margin-top: 40%;
+    }
+
+    .content img {
+        width: 100%;
+        padding: 10px;
+    }
 }

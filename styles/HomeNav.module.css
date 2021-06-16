@@ -44,7 +44,6 @@
 
   .container {
     position: relative;
-    border-bottom: 1px solid white;
     height: 10vh;
   }
 
@@ -54,7 +53,7 @@
     right: 5%;
     top: 20%;
     transform: translate(5%, 20%);
-    z-index: 10;
+    z-index: 2;
   }
 
   .navRoutes {

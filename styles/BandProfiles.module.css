@@ -2,9 +2,8 @@
 .mainContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    height: 100vh;
+    text-align: center;
+    color: white;
 }
 
 .container {
@@ -14,12 +13,14 @@
 }
 
 .imageContainer {
-    margin-top: 8%;
-    display: flex;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-top: 25%;
 }
 
 .container img {
-    height: 100%;
+    height: 450px;
     width: 60%;
     border-radius: 10px;
     box-shadow: 0 0 100px #1c2958;
@@ -35,14 +36,15 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.logoContainer {
+    margin-top: 2%;
+    position: absolute;
+}
+
+.colorLogo {
+    width: 50%;   
+}
+
 @media (max-width: 768px) {
 
-    .mainContainer {
-        width: 812px;
-        justify-content: end;
-    }
-
-    .imageContainer {
-        flex-direction: column;
-    }
 }

@@ -4,16 +4,24 @@
   justify-content: center;
   background-image: url("/theiocideeditposter.jpg");
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
 }
 
 .homeContent {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin-top: 5%;
+  text-align: center;
+  margin-top: 15%;
+  width: 50%;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.homeContent img {
+  width: 150px;
+}
+
+
 
 .homeEvents {
   display: flex;
@@ -21,6 +29,7 @@
   justify-content: center;
   align-items: center;
 }
+
 
 .homeEvents p {
   color: white;
@@ -31,6 +40,15 @@
     background-image: url("/theocid5white.png");
     background-size: contain;
     background-repeat: no-repeat;
+  }
+  .homeContent {
+    margin-top: 500px;
+    width: 100%;
+  }
+
+  .homeContent img {
+    height: 300px;
+    width: 100%;
   }
 
 }

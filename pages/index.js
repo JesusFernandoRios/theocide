@@ -24,10 +24,9 @@ export default function Home() {
 
       <section className={styles.homeContent}>
 
-        <div className={styles.homeEvents}>
-          <h2>Upcoming Events</h2>
-          {/* <EventsInfo/> */}
-        </div>
+        <h1>Upcoming Events</h1>
+
+        <EventsInfo/>
 
       </section>
       

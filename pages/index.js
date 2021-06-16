@@ -26,7 +26,7 @@ export default function Home() {
 
         <div className={styles.homeEvents}>
           <h2>Upcoming Events</h2>
-          <EventsInfo/>
+          {/* <EventsInfo/> */}
         </div>
 
       </section>

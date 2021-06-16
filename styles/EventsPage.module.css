@@ -11,13 +11,17 @@
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    
-    margin-top: 20%;
 }
 
 .logoContainer {
     position: absolute;
-    margin-top: 2%;
+}
+
+.eventWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    z-index: 1;
 }
 
 .colorLogo {

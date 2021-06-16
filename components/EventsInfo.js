@@ -1,16 +1,37 @@
 import styles from '../styles/EventsPage.module.css'
 import Image from 'next/image'
 
-function EventsInfo({image, date, eventName, tickets}) {
+const eventInformation = [
+    {
+        image:'/events/TheRock.jpg',
+        date:'Friday, July 30th',
+        eventName:'The Rock',
+        tickets:'https://rocktucson.com/event/sleeping-with-the-witch/?instance_id=586'
+    },
+    {
+        image:'/events/AwaitingEternity.jpg',
+        date:'June 18th',
+        eventName:'Sunshine Studios Live',
+        tickets:'https://wl.seetickets.us/event/Ground-Zero-Promotions-Presents/424356?afflky=SunshineStudiosLive'
+    }
+
+]
+
+function EventsInfo() {
 
     return (
-        <a href={tickets} className={styles.events} target="_blank">
+
+        <div className={styles.content}>
+            {eventInformation.map((events, index) => (
+                <a key={index} href={events.tickets} className={styles.events} target="_blank">
+                        
+                    <Image className={styles.eventImage} src={events.image} alt={events.eventName} width={250} height={300}/>
+                    <h2>{events.eventName}</h2>
+                    <p>{events.date}</p>
+                </a>
+            ))}
+        </div>
         
-            <Image className={styles.eventImage} src={image} alt={eventName} width={250} height={300}/>
-            <h2>{eventName}</h2>
-            <p>{date}</p>
-            {/* <a href={tickets} target="_blank">tickets/info</a> */}
-        </a>
     )
 }
 

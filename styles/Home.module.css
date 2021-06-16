@@ -36,6 +36,7 @@
 }
 
 @media (max-width: 768px) {
+  
   .container {
     background-image: url("/theocid5white.png");
     background-size: contain;

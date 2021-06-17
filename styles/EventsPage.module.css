@@ -33,6 +33,7 @@
     border-radius: 10px;
 }
 
+
 @keyframes event-load {
     5% {
         transform: translateX(-100%);

@@ -8,7 +8,6 @@
 }
 
 .homeContent {
-  align-items: center;
   text-align: center;
   margin-top: 15%;
   width: 50%;
@@ -41,9 +40,10 @@
     background-image: url("/colorLogo/purple.png");
     background-size: contain;
     background-repeat: no-repeat;
+    height: 150vh;
   }
   .homeContent {
-    margin-top: 500px;
+    margin-top: 100px;
     width: 100%;
   }
 

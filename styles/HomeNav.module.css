@@ -14,7 +14,7 @@
     color:white;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 500 !important;
 }
 
 .open {
@@ -28,7 +28,7 @@
   color:white;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 500 !important;
 }
 
 @media (max-width: 768px) {

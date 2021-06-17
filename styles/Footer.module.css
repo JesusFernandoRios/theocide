@@ -4,7 +4,7 @@
     bottom: 0;
     width: 100%;
     background-color: black;
-    color: white;
+    border-top: 1px solid white;
     text-align: center;
     height: 60px;
     z-index: 2;

@@ -1,4 +1,3 @@
-import PageFooter from '../components/PageFooter'
 import NavBar from '../components/NavBar'
 import styles from '../styles/StorePage.module.css'
 

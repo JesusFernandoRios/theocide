@@ -13,10 +13,8 @@ function Bio() {
                 </div>
 
                 <div className={styles.content}>
-
-                    <img src="/groupPicture1.jpg" alt="Group Picture"/>
                     
-                    <div>
+                    <div className={styles.bioContext}>
                         <h2>Theocide</h2>
                         <p>
                         To murder the Gods.

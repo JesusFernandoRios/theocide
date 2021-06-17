@@ -22,7 +22,7 @@
 }
 
 .container img {
-    height: 350px;
+    height: 450px;
     width: 60%;
     border-radius: 10px;
     box-shadow: 0 0 100px #1c2958;
@@ -30,11 +30,13 @@
 
 .container h2 {
     color: white;
+    margin: 0;
     font-family: 'Raleway', sans-serif;
 }
 
 .container h3 {
     color: white;
+    margin: 0;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -45,6 +47,22 @@
 
 .colorLogo {
     width: 50%;   
+}
+
+@media (max-width: 768px) {
+    .mainContainer {
+        height: 300vh;
+    }
+
+    .imageContainer {
+      height: 90%; 
+    }
+
+    .container img {
+        height: 400px;
+        width: 80%;
+    }
+    
 }
 
 @keyframes image-load {

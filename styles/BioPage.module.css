@@ -14,6 +14,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 20%;
+    animation: content-load 800ms;
 }
 
 .content img {
@@ -41,6 +42,16 @@
 
 .colorLogo {
     width: 50%;   
+}
+
+@keyframes content-load {
+    5% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 @media (max-width: 768px) {

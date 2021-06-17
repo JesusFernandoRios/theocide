@@ -9,6 +9,7 @@
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    animation: event-load 300ms;
 }
 
 .logoContainer {
@@ -30,4 +31,14 @@
 
 .eventImage {
     border-radius: 10px;
+}
+
+@keyframes event-load {
+    5% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }

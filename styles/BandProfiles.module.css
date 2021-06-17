@@ -17,6 +17,7 @@
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     margin-top: 25%;
+    animation: image-load 800ms;
 }
 
 .container img {
@@ -45,6 +46,12 @@
     width: 50%;   
 }
 
-@media (max-width: 768px) {
+@keyframes image-load {
+    5% {
+        transform: translateY(-100%);
+    }
 
+    100% {
+        transform: translateY(0);
+    }
 }
